@@ -23,5 +23,5 @@ imshow(uint8(cover_image-recovered_image));
 text(0.3,-0.1, 'Pixel wise difference', 'Units', 'normalized')
 title('Original vs recovered images');
 
-saveas(gcf,char(strcat(results_path,'Obtained results wirh',{' '},'T1=',num2str(T1),{' '},' and T2=',num2str(T1),{' '},'-',{' '},num2str(payload_size),{' '},' bits.png')));
+saveas(gcf,char(strcat(results_path,'Obtained results with',{' '},'T1=',num2str(T1),{' '},' and T2=',num2str(T1),{' '},'-',{' '},num2str(payload_size),{' '},' bits.png')));
 
